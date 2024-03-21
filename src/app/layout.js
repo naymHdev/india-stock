@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="px-5 py-3">
       <body className={inter.className}>
         <Sidebar />
         <div className="min-h-screen">{children}</div>
